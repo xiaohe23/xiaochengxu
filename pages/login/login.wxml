@@ -14,6 +14,7 @@
       <input class="input" type="password" placeholder="请输入密码" bindinput="bindPasswordInput"></input>
     </view>
     <button class="login-btn" bindtap="doLogin">登录</button>
+    <button>2323</button>
   </view>
 </view>
 
