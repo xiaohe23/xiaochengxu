@@ -1,0 +1,19 @@
+<!--pages/login/login.wxml-->
+<!-- login.wxml -->
+<view class="container">
+  <view class="logo">
+    <image src="../../img/beixin.webp"></image>
+  </view>
+  <view class="login-form">
+    <view class="input-wrapper">
+      <text class="icon icon-phone"></text>
+      <input class="input" type="number" placeholder="请输入手机号" bindinput="bindPhoneInput"></input>
+    </view>
+    <view class="input-wrapper">
+      <text class="icon icon-password"></text>
+      <input class="input" type="password" placeholder="请输入密码" bindinput="bindPasswordInput"></input>
+    </view>
+    <button class="login-btn" bindtap="doLogin">登录</button>
+  </view>
+</view>
+
